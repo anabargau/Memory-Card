@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/anabargau/Memory-Card/static/css/main.dbd0b527.css",
+    "main.js": "/anabargau/Memory-Card/static/js/main.9828dd69.js",
+    "static/media/neptune.jpg": "/anabargau/Memory-Card/static/media/neptune.098e91396555a0ab7b93.jpg",
+    "static/media/earth.jpg": "/anabargau/Memory-Card/static/media/earth.272984057926d25c33a6.jpg",
+    "static/media/sun.jpg": "/anabargau/Memory-Card/static/media/sun.b1348f187a9a48336f2d.jpg",
+    "static/media/background.jpg": "/anabargau/Memory-Card/static/media/background.03b1e08012296c3a32ff.jpg",
+    "static/media/mars.jpg": "/anabargau/Memory-Card/static/media/mars.e572a36266e131baa392.jpg",
+    "static/media/milky.jpg": "/anabargau/Memory-Card/static/media/milky.308f52a17afafcc5621c.jpg",
+    "static/media/moon.jpg": "/anabargau/Memory-Card/static/media/moon.49ce4ab42895e519dd4a.jpg",
+    "static/media/jupiter.jpg": "/anabargau/Memory-Card/static/media/jupiter.e059b361c203f41297fa.jpg",
+    "static/media/pluto.jpg": "/anabargau/Memory-Card/static/media/pluto.d798bbbe033604ec2a63.jpg",
+    "static/media/saturn.jpg": "/anabargau/Memory-Card/static/media/saturn.3c0d6d754a1e1af0ad94.jpg",
+    "static/media/uranus.jpg": "/anabargau/Memory-Card/static/media/uranus.e0d97eb5ff6cd1243337.jpg",
+    "static/media/SpaceMono-Regular.ttf": "/anabargau/Memory-Card/static/media/SpaceMono-Regular.f6e015c36df6af8b01db.ttf",
+    "static/media/mercury.jpg": "/anabargau/Memory-Card/static/media/mercury.156655c237c4ff3aeb80.jpg",
+    "static/media/venus.jpg": "/anabargau/Memory-Card/static/media/venus.cc006f2129dff4ed64cb.jpg",
+    "index.html": "/anabargau/Memory-Card/index.html",
+    "main.dbd0b527.css.map": "/anabargau/Memory-Card/static/css/main.dbd0b527.css.map",
+    "main.9828dd69.js.map": "/anabargau/Memory-Card/static/js/main.9828dd69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbd0b527.css",
+    "static/js/main.9828dd69.js"
+  ]
+}
