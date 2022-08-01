@@ -1,15 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Picture from './Picture';
 
 function Grid(props) {
-    const { images, clickImage, randomizeArray } = props;
-
-    useEffect(() => {
-        randomizeArray();
-    }); 
+    const { images, clickImage } = props;
 
     return (
-        <div className='image-grid'>
+        <div className="image-grid">
             {images.map((image, idx) => (
                 <Picture key={idx} image={image} clickImage={clickImage} />
             ))}

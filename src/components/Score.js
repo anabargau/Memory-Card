@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Score(props) {
-    const { score, bestScore } = props;
+    const { score, bestScore, checkIfBestScore } = props;
+
+    useEffect(() => checkIfBestScore());
 
     return (
-        <div>
-            Score: {score} Best Score: {bestScore}
+        <div className="score">
+            <div>Score: {score} </div>
+            <div>Best Score: {bestScore}</div>
         </div>
     )
 };

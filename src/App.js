@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import Title from './components/Title';
 import Instructions from './components/Instructions';
@@ -13,17 +13,15 @@ function App() {
 
   function clickImage(event) {
     const id = event.target.id;
-    console.log(id)
-    console.log(clickedImages)
     if (clickedImages.includes(id)) {
       resetScore();
       setClickedImages([]);
     } else {
       clickedImages.push(id)
       setClickedImages(clickedImages);
-      incrementScore();
-      checkIfBestScore(score);
+      incrementScore();  
     }
+    randomizeArray();
   };
 
   function resetScore() {
@@ -34,7 +32,7 @@ function App() {
     setScore(score + 1);
   };
 
-  function checkIfBestScore(score) {
+  function checkIfBestScore() {
     if (score > bestScore) {
       setBestScore(score);
     };
@@ -48,10 +46,10 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='app'>
       <Title />
       <Instructions />
-      <Score score={score} bestScore={bestScore}/>
+      <Score  bestScore={bestScore} score={score} checkIfBestScore={checkIfBestScore}/>
       <Grid images={images} clickImage={clickImage} randomizeArray={randomizeArray}/>
     </div>
   );
