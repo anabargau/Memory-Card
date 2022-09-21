@@ -4,7 +4,6 @@ The game includes 12 space-themed card. The goal of the game is to click on each
 ## How it works?
 You have 12 cards which you have to click on. Everytime you click on a card you haven't clicked on before, your score increments by one and the deck shuffles. Everytime you click on a card that you have clicked on before, your score resets to 0. You also have a best score that registers your highest score up to the present moment.
 ## Techonolgies used:
-* JavaScript
 * React
 * CSS
 
